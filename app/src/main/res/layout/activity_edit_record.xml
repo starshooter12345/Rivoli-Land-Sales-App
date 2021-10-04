@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.landmanagementcode.EditRecordActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/display_text"
+        android:text="@string/land_information"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/blackColor"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/landtitle"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/background"
+        android:hint="@string/enter_land_title"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/extentinperches"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/landtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/background"
+        android:hint="@string/enter_extent_in_perches"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/priceperperch"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/extentinperches"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/background"
+        android:hint="@string/enter_price_per_perch_in_rupees"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/landaddress"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceperperch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/background"
+        android:hint="@string/enter_land_address"
+        android:inputType="textPostalAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/landdescription"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/landaddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/background"
+        android:hint="@string/enter_land_description"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/sellername"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/landdescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/background"
+        android:hint="@string/enter_seller_name"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/sellerphone"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sellername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background"
+        android:hint="@string/enter_seller_phone_number"
+        android:inputType="phone"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/selleremail"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sellerphone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/background"
+        android:hint="@string/enter_seller_email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="113dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/selleremail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="3dp"
+        android:padding="2dp"
+        android:src="@drawable/ic_action_name" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/selleremail"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/background"
+        android:text="@string/edit_information"
+        android:textColor="@color/blackColor"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

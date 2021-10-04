@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/whiteColor"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:id="@+id/profileIv"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_profile"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/profileIv"
+            android:layout_toEndOf="@id/profileIv"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            >
+
+            <TextView
+                android:id="@+id/landtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land title"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/extentinperches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Extent in perches"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/priceperperch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price per perch"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/landaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land address"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/landdescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land description"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+
+                />
+            <TextView
+                android:id="@+id/sellername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller name"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/sellerphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller phone"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/selleremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller email"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context="com.project.landmanagementcode.home">
+
+    <ImageView
+        android:id="@+id/imgland"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/revoli" />
+
+    <TextView
+        android:id="@+id/revoli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:text="Rivoli"
+        android:textAlignment="center"
+        android:textColor="#DD0A0A"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnbuylogin"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnregbuy"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Login as a Buyer"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btnsellogin"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnregsel"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/background_dark"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentEnd="true"
+        android:text="Login as a Seller" />
+
+    <Button
+        android:id="@+id/btnregbuy"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imgland"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginLeft="25dp"
+        android:text="Register as a Buyer"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnregsel"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imgland"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentEnd="true"
+        android:text="Register as a Seller"
+        android:textAllCaps="false" />
+
+
+
+</RelativeLayout>

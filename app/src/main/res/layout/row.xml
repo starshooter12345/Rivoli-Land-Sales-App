@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/whiteColor"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profileIv"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_profile" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@id/profileIv"
+            android:layout_toRightOf="@id/profileIv"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/landtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land title"
+                android:textColor="@color/blackColor"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/extentinperches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Extent in perches"
+                android:textColor="@color/blackColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/priceperperch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price per perch"
+                android:textColor="@color/blackColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/landaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land address"
+                android:textColor="@color/blackColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/landdescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land description"
+                android:textColor="@color/blackColor"
+                android:textSize="12sp"
+
+                />
+
+            <TextView
+                android:id="@+id/sellername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller name"
+                android:textColor="@color/blackColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sellerphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller phone"
+                android:textColor="@color/blackColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/selleremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller email"
+                android:textColor="@color/blackColor"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/editBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:src="@drawable/ic_action_edit" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

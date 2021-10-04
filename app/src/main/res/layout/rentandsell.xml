@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context="com.project.landmanagementcode.rentandsell">
+
+    <ImageView
+        android:id="@+id/imglandrent"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/landrent" />
+
+    <Button
+        android:id="@+id/btnrentland"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imglandrent"
+        android:layout_marginLeft="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Rent"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark" />
+
+
+    <ImageView
+        android:id="@+id/imglandsell"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/btnrentland"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-40dp"
+        android:src="@drawable/landsell" />
+
+
+    <Button
+        android:id="@+id/btnbuyland"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imglandsell"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Buy"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btnaccount"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imglandsell"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Account"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark" />
+
+
+</RelativeLayout>

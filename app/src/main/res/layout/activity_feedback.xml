@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <EditText
+        android:id="@+id/feedemail"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/background"
+        android:enabled="false"
+        android:hint="@string/enter_land_title"
+        android:padding="10dp"
+        android:text="humbleandwise16@gmail.com" />
+
+    <EditText
+        android:id="@+id/subjectfeed"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/background"
+        android:gravity="start|top"
+        android:hint="@string/feed_subject"
+        android:lines="5"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/messagefeedback"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subjectfeed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/background"
+        android:gravity="start|top"
+        android:hint="@string/feed_enter"
+        android:lines="7"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/feedButton"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messagefeedback"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/background"
+        android:text="@string/submit_feed"
+        android:textColor="@color/blackColor"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

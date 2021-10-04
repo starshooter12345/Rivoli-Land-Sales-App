@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context=".sellerbuyandrent">
+
+    <ImageView
+        android:id="@+id/imglandrent"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rent2" />
+
+    <Button
+        android:id="@+id/btnsellerrent"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imglandrent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Rent"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark" />
+
+
+    <ImageView
+        android:id="@+id/imglandsell"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/btnsellerrent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-40dp"
+        android:src="@drawable/sell2" />
+
+
+
+    <Button
+        android:id="@+id/btnsellersell"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@id/imglandsell"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-60dp"
+        android:text="Sell"
+        android:layout_marginRight="25dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnselacc"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@id/imglandrent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-60dp"
+        android:text="Account"
+        android:layout_marginRight="25dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_seldelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:text="Delete Account"
+        app:backgroundTint="#D3176E1A"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_below="@+id/btnsellerrent" />
+
+</RelativeLayout>

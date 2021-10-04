@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/whiteColor"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:id="@+id/profileIv"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_profile1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/profileIv"
+            android:layout_toEndOf="@id/profileIv"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            >
+
+            <TextView
+                android:id="@+id/rtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rental property title"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/rarea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Area of property"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/rental"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rental amount"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/rseller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+                />
+            <TextView
+                android:id="@+id/rdes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Property description"
+                android:textSize="12sp"
+                android:textColor="@color/blackColor"
+
+                />
+
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editBtn"
+            android:src="@drawable/ic_action_edit"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Buddhisha Dharmarath/Desktop/Pawan new files/LandSalesApp/app/src/main/res/layout/activity_add_record.xml" value="0.12" />
+        <entry key="..\:/Users/Buddhisha Dharmarath/Desktop/Pawan new files/LandSalesApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Buddhisha Dharmarath/Desktop/Pawan new files/LandSalesApp/app/src/main/res/layout/buyer_row.xml" value="0.1" />
+        <entry key="..\:/Users/Buddhisha Dharmarath/Desktop/Pawan new files/LandSalesApp/app/src/main/res/layout/buyerregister.xml" value="0.1796875" />
+        <entry key="..\:/Users/Buddhisha Dharmarath/Desktop/Pawan new files/LandSalesApp/app/src/main/res/layout/home.xml" value="0.1796875" />
+        <entry key="..\:/Users/Buddhisha Dharmarath/Desktop/Pawan new files/LandSalesApp/app/src/main/res/layout/row.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

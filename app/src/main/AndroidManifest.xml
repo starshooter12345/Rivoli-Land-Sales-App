@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.landsalesapp">
+
+    <!-- camera permission -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- write external storage permission -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Land Management"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LandManagementCode">
+        <activity
+            android:name="com.project.landmanagementcode.buyerlogin"
+            android:exported="true" />
+
+        <activity
+            android:name="com.project.landmanagementcode.buyeraccount"
+            android:exported="true" />
+
+        <activity
+            android:name="com.project.landmanagementcode.buyerupdate"
+            android:exported="true" />
+
+        <activity
+            android:name="com.project.landmanagementcode.buyerregister"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.project.landmanagementcode.rentandsell"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name="com.project.landmanagementcode.home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Theme.LandManagementCode" />
+
+        //buddisha
+        <activity
+            android:name="com.project.landmanagementcode.MainActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name="com.project.landmanagementcode.AddRecordActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name="com.project.landmanagementcode.EditRecordActivity"
+            android:exported="true"></activity>
+
+        <activity
+            android:name="com.project.landmanagementcode.CalculateDiscount"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name="com.project.landmanagementcode.Feedback"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.project.landmanagementcode.Buyerview"
+            android:exported="true">
+
+        </activity>
+
+
+        //yasas
+        <activity
+            android:name="com.project.landmanagementcode.SellerLogin"
+            android:exported="true">
+
+
+        </activity>
+
+        <activity
+            android:name="com.project.landmanagementcode.SellerMain"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name="com.project.landmanagementcode.sellerbuyandrent"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name="com.project.landmanagementcode.selleraccount2"
+            android:exported="true">
+
+        </activity>
+
+        //shamila
+        <activity
+            android:name="com.project.landmanagementcode.rentadd"
+            android:exported="true">
+
+
+        </activity>
+        <activity
+            android:name="com.project.landmanagementcode.rentupdate"
+            android:exported="true">
+
+
+        </activity>
+        <activity
+            android:name="com.project.landmanagementcode.rentview"
+            android:exported="true">
+
+
+
+
+
+        </activity>
+
+
+    </application>
+
+</manifest>

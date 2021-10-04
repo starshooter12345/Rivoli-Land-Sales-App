@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/bg"
+    tools:context="com.project.landmanagementcode.buyerregister">
+
+    <ImageView
+        android:id="@+id/buyimg"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/buyregister"/>
+
+
+    <EditText
+        android:id="@+id/buyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/buyimg"
+        android:hint="Name"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/buyemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:textSize="25dp"
+        android:layout_below="@+id/buyname"
+        />
+
+    <EditText
+        android:id="@+id/buypassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyemail"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/buyconfirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buypassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:hint="Confirm Password"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/buyphonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyconfirmpassword"
+        android:layout_marginTop="10dp"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnbuyreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_below="@id/buyphonenumber"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnbuylogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Sign in Page"
+        android:textAllCaps="false"
+        android:layout_below="@id/btnbuyreg"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/bg"
+    tools:context=".SellerMain">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/selreg" />
+
+    <EditText
+        android:id="@+id/selusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username here"
+        android:textSize="20dp"
+        android:layout_below="@+id/imageView"
+        />
+
+    <EditText
+        android:id="@+id/selpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password here"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/selusername"
+        />
+    <EditText
+        android:id="@+id/selrepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-enter Password here"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/selpassword"
+        />
+    <EditText
+        android:id="@+id/selemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email here"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/selrepassword"
+        />
+
+    <EditText
+        android:id="@+id/selcn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact Number here"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/selemail"
+        />
+
+    <Button
+        android:id="@+id/btnselSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_below="@+id/selcn"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnselSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Existing User? Go to Sign in"
+        android:textAllCaps="false"
+        android:layout_below="@+id/btnselSignup"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
+

@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Land management code</string>
+    <string name="land_information">Land Information</string>
+    <string name="enter_land_title">Enter Land title</string>
+    <string name="enter_extent_in_perches">Enter extent in perches</string>
+    <string name="enter_price_per_perch_in_rupees">Enter price per perch(in rupees)</string>
+    <string name="enter_land_address">Enter land address</string>
+    <string name="enter_land_description">Enter land description</string>
+    <string name="enter_seller_name">Enter seller name</string>
+    <string name="enter_seller_phone_number">Enter seller phone number</string>
+    <string name="enter_seller_email">Enter seller email</string>
+    <string name="submit_information">Submit information</string>
+    <string name="edit_information">Update information</string>
+    <string name="feed_subject">Subject of your feedback</string>
+    <string name="feed_enter">Enter feedback message</string>
+    <string name="submit_feed">Submit feedback</string>
+    <string name="give_feed">Feedback</string>
+    <string name="cal_disco">Cut fee</string>
+    <string name="discount_title">Calculate discount </string>
+    <string name="age">Enter age</string>
+    <string name="registered">Enter number of years registered</string>
+    <string name="discount">Discount</string>
+    <string name="title_discount">Calculate Discount percentage</string>
+
+
+    //pawan
+    <string name="app_bname">My Application</string>
+    <string name="Email">Email</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="nicnumber">NIC Number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="rname">Enter your name </string>
+    <string name="remail">Enter your Email Address</string>
+    <string name="rcpassword">Enter your Confirm Password</string>
+    <string name="rpassword">Enter your Password</string>
+    <string name="rnicnumber">Enter your NIC Number</string>
+    <string name="rphonenumber">Enter your Phone Number</string>
+    <string name="nname">Kasun Lakmal</string>
+
+    //yasas
+    <string name="app_sname">finalyasas</string>
+    <string name="heading">Register as a Seller</string>
+    <string name="input_name">Name :</string>
+    <string name="input_cn">Contact Number :</string>
+    <string name="input_email">Email :</string>
+    <string name="input_pswd">Password :</string>
+    <string name="pt_name">Enter your Name here</string>
+    <string name="pt_cn">Enter your Contact Number here</string>
+    <string name="pt_email">Enter your Email here</string>
+    <string name="pt_pswd">Enter your Password here</string>
+    <string name="tc">I agree with the terms and conditions</string>
+    <string name="sellersubmit">Create Account</string>
+    <string name="u_heading">Update Account</string>
+
+
+    <string name="u_tv_name" />
+    <string name="u_view_name">Name  :</string>
+    <string name="u_view_cn">Contact Number :</string>
+    <string name="u_view_email">Email :</string>
+    <string name="u_pt_name">John Doe</string>
+    <string name="u_pt_cn">0123456789</string>
+    <string name="u_pt_email">johndoe@sample.com</string>
+    <string name="update">Update Account</string>
+    <string name="acc_heading">My Seller Account</string>
+    <string name="acc_name">Name :</string>
+    <string name="acc_cn">Contact Number :</string>
+    <string name="acc_email">Email :</string>
+    <string name="acc_view_name">John Doe</string>
+    <string name="acc_view_cn">0123456789</string>
+    <string name="acc_view_email">johndoe@sample.com</string>
+    <string name="rent">Rent out a Land</string>
+    <string name="sell">Sell a Land</string>
+    <string name="update_acc">Update Account</string>
+    <string name="delete_acc">Delete Account</string>
+    <string name="login_heading">Login</string>
+    <string name="login_email">Email</string>
+    <string name="loginemail">Email :</string>
+    <string name="login_pswd">Password :</string>
+    <string name="pt_login_email">Enter your Email here</string>
+    <string name="pt_login_pswd">Enter your Password here</string>
+    <string name="keeploggedin">Keep me logged in</string>
+    <string name="login">Login</string>
+    <string name="invalid_name">Enter valid name</string>
+    <string name="invalid_mobile">Enter valid phone number</string>
+    <string name="invalid_email">Enter valid email</string>
+
+    //shamila
+    <string name="utitle">Update Title</string>
+    <string name="uarea">Update Area</string>
+    <string name="urental">Update Rental</string>
+    <string name="udes">Update Description</string>
+    <string name="useller">Update Seller</string>
+    <string name="rtitle">rtitle</string>
+    <string name="rarea">rarea</string>
+    <string name="rental">rental</string>
+    <string name="description">description</string>
+    <string name="rseller">rseller</string>
+
+</resources>
